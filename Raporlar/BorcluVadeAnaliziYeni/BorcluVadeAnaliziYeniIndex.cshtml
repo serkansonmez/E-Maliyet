@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = Serenity.LocalText.Get("Db.Raporlar.BorcluVadeAnaliziYeni.EntityPlural");
+}
+
+<div id="GridDiv"></div>
+
+<script type="text/javascript">
+    jQuery(function () {
+        new E_Go.Raporlar.BorcluVadeAnaliziYeniGrid($('#GridDiv'), {}).init();
+
+        Q.initFullHeightGridPage($('#GridDiv'));
+    });
+</script>
+
+

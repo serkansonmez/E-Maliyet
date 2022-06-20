@@ -1,0 +1,173 @@
+{
+  "RootNamespace": "E_Maliyet",
+  "ServerTypings": {
+    "Assemblies": [],
+    "LocalTexts": true
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.KullaniciRaporFiltreleri",
+          "Identifier": "KullaniciRaporFiltreleri",
+          "Module": "Administration",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.MaliyetDetay",
+          "Identifier": "MaliyetDetay",
+          "Module": "Maliyet",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.MaliyetTalep",
+          "Identifier": "MaliyetTalep",
+          "Module": "Maliyet",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Raporlar",
+          "Identifier": "Raporlar",
+          "Module": "Administration",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_BorcluVadeAnalizi",
+          "Identifier": "BorcluVadeAnalizi",
+          "Module": "Raporlar",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.VW_MaliyetDetayToplam",
+          "Identifier": "MaliyetDetayToplam",
+          "Module": "Maliyet",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    },
+    {
+      "Key": "Tiger",
+      "Tables": [
+        {
+          "Tablename": "dbo.EMY_CARI_GORUSMELER",
+          "Identifier": "CariGorusmeler",
+          "Module": "VeriGirisleri",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.L_CAPIFIRM",
+          "Identifier": "TigerFirmalar",
+          "Module": "Tiger",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.L_CAPIPERIOD",
+          "Identifier": "TigerDonemler",
+          "Module": "Tiger",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_BankaBakiye",
+          "Identifier": "BankaBakiye",
+          "Module": "Finans",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_BankaHareketleri",
+          "Identifier": "BankaHareketleri",
+          "Module": "Finans",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_Bilanco",
+          "Identifier": "Bilanco",
+          "Module": "Muhasebe",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_BorcVadeAnalizi",
+          "Identifier": "BorcVadeAnalizi",
+          "Module": "Finans",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.tmp_CariHesapListesi",
+          "Identifier": "CariHesapListesi",
+          "Module": "Tiger",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_CekSenetRaporu",
+          "Identifier": "CekSenetRaporu",
+          "Module": "Raporlar",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_GelirTablosu",
+          "Identifier": "GelirTablosu",
+          "Module": "Muhasebe",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_HareketsizCariListesi",
+          "Identifier": "HareketsizCariListesi",
+          "Module": "Raporlar",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_KasaHareket",
+          "Identifier": "KasaHareket",
+          "Module": "Finans",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_MizanRaporu",
+          "Identifier": "MizanRaporu",
+          "Module": "Muhasebe",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_RaporCariBakiye",
+          "Identifier": "CariBakiyeRaporu",
+          "Module": "Raporlar",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_SatinalmaAnalizRaporu",
+          "Identifier": "SatinalmaAnalizRaporu",
+          "Module": "Satinalma",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_SatisAnalizRaporu",
+          "Identifier": "SatisAnalizRaporu",
+          "Module": "Tiger",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tmp_TahsilatRaporu",
+          "Identifier": "TahsilatRaporu",
+          "Module": "Raporlar",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.VW_002_ITEMS",
+          "Identifier": "MalzemeListesi",
+          "Module": "Tiger",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.VW_002_VARIANT",
+          "Identifier": "VaryantListesi",
+          "Module": "Tiger",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": [],
+  "CustomGenerate": {},
+  "CustomSettings": {}
+}
